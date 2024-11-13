@@ -1,19 +1,17 @@
-# Install Cisco Packet Tracer Easily
+## What Does the Script Do?
 
-An easier way to install Cisco Packet Tracer on Linux and avoid the common errors like:
+This shell script provides an easier way to install Cisco Packet Tracer on Linux and avoid the common errors like:
 ```
 The following packages have unmet dependencies:
 packettracer: depends: libgl1-mesa-glx but it is not installable
 ```
 
+by doing the following:
 
-
-## What Does the Script Do?
-
-- Installs all required dependencies
-- Downloads and installs the missing `libgl1-mesa-glx` package from Debian
-- Resolves any `dpkg` interruptions from prior incomplete Packet Tracer installations
-- Provides step-by-step guidance for installing Packet Tracer
+- Installing all required dependencies
+- Downloading and Installing the missing `libgl1-mesa-glx` package from Debian
+- Resolving any `dpkg` interruptions from prior incomplete Packet Tracer installations
+- Providing step-by-step guidance for installing Packet Tracer
 
 
 
